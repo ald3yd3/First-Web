@@ -925,6 +925,27 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.from-yellow-400 {
+  --tw-gradient-from: #fbbf24;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0));
+}
+
+.via-red-500 {
+  --tw-gradient-stops: var(--tw-gradient-from), #ef4444, var(--tw-gradient-to, rgba(239, 68, 68, 0));
+}
+
+.to-yellow-400 {
+  --tw-gradient-to: #fbbf24;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
